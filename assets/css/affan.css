@@ -1,0 +1,75 @@
+.contactme {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 77px;
+    animation: gravityFall 1.5s ease-out forwards;
+}
+
+.comment-container {
+    /* background-color: #ffffff; */
+    /* padding: 20px; */
+    width: 100%;
+    /* max-width: 900px; Moderately increased maximum width */
+    text-align: center;
+}
+
+.comment-container textarea {
+    width: 100%;
+    height: 250px;
+    /* Moderately increased height */
+    padding: 15px;
+    /* Comfortable padding */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    font-size: 15px;
+    /* Larger font size for readability */
+    box-sizing: border-box;
+    resize: vertical;
+    /* Allows vertical resizing only */
+    margin: 24px;
+    background-color: #031519;
+}
+
+.form-control-lg {
+    background-color: #031519;
+    border: #031519;
+    margin: 24px;
+    padding: 18px;
+    font-size: 15px;
+
+}
+
+.bs {
+    background-color: #000000;
+    border-radius: 20px;
+    color: #FFFFFF;
+    width: 200px;
+    padding: 11px;
+    border-radius: 40px;
+    margin: 24px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    .form-control-lg {
+        margin: 4px;
+    }
+
+    .comment-container textarea {
+        margin: 4px;
+    }
+
+    .bs {
+        background-color: #000000;
+        border-radius: 20px;
+        color: #FFFFFF;
+        width: 100%;
+        padding: 11px;
+        border-radius: 40px;
+        margin: 0;
+        font-weight: 500;
+    }
+}
